@@ -1,0 +1,38 @@
+# Runtime configuration created by the web setup
+/config/config.json
+
+# Runtime storage: keep only protection and placeholder files
+/storage/*
+!/storage/.htaccess
+!/storage/.gitkeep
+
+# Private development/build helper
+/public/build.php
+
+# Branding uploaded or generated during setup/runtime
+/public/assets/img/logo_*
+/public/assets/img/favicon-16x16.png
+/public/assets/img/favicon-32x32.png
+/public/assets/img/apple-touch-icon.png
+/public/assets/img/favicon.svg
+/public/assets/img/favicon.png
+/public/assets/img/favicon.jpg
+/public/assets/img/favicon.jpeg
+/public/assets/img/favicon.webp
+/public/assets/img/favicon.gif
+
+# Temporary patch/build files that do not belong in the repository
+/PATCH.txt
+/PATCH-README.txt
+
+# Local/editor/system noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.tmp
+*.swp
+
+# vendor/ is intentionally committed so the application can be deployed
+# without running Composer on the target server.

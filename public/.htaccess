@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Existierende Dateien und Verzeichnisse niemals umschreiben.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/(cam|download)/?$ index.php?job=$1&route=$2 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ index.php?job=$1 [L,QSA]

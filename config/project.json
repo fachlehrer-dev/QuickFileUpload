@@ -1,0 +1,11 @@
+{
+    "project_name": "QuickFileUpload",
+    "publisher_name": "IFL Bayreuth",
+    "github_url": "https://github.com/fachlehrer-dev/QuickFileUpload",
+    "website_url": "https://fachlehrer.dev/QuickFileUpload",
+    "developer_type": "person",
+    "developer_name": "Fred Maier",
+    "developer_email": "fred@fachlehrer.dev",
+    "usage_enabled": true,
+    "usage_url": "https://usage.fachlehrer.dev/prod=quickfileupload"
+}

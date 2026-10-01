@@ -1,0 +1,12 @@
+{
+    "de": {
+        "name": "Deutsch",
+        "html": "de",
+        "flag": "de"
+    },
+    "en": {
+        "name": "English",
+        "html": "en",
+        "flag": "gb"
+    }
+}

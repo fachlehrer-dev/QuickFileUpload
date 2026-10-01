@@ -1,0 +1,53 @@
+:root {
+    --bs-border-radius: 0 !important;
+    --bs-border-radius-sm: 0 !important;
+    --bs-border-radius-lg: 0 !important;
+    --bs-border-radius-xl: 0 !important;
+    --bs-border-radius-xxl: 0 !important;
+    --bs-border-radius-2xl: 0 !important;
+    --bs-border-radius-pill: 0 !important;
+}
+* { border-radius: 0 !important; }
+
+/* ALTCHA Widget nahtlos integrieren */
+altcha-widget {
+    --altcha-max-width: 100%;
+    --altcha-border-radius: 0;
+    --altcha-border-color: #dee2e6;
+    width: 100%;
+    display: block;
+}
+
+/* Dateityp-Chips */
+.filetype-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    padding: .4rem .7rem;
+    margin: .18rem .15rem .18rem 0;
+    border: 1px solid #ced4da;
+    background: #fff;
+    color: #495057;
+    font-size: .875rem;
+    line-height: 1.2;
+}
+.filetype-chip i { font-size: 1rem; }
+
+/* Upload-Dropzone */
+.upload-dropzone {
+    border: 2px dashed #adb5bd;
+    background: #f8f9fa;
+    padding: 2rem 1rem;
+    cursor: pointer;
+    transition: border-color .15s ease, background-color .15s ease;
+}
+.upload-dropzone:hover,
+.upload-dropzone.is-dragover {
+    border-color: var(--bs-primary);
+    background: rgba(var(--bs-primary-rgb), .06);
+}
+.upload-dropzone:focus-visible {
+    outline: 3px solid rgba(var(--bs-primary-rgb), .25);
+    outline-offset: 2px;
+}
+.upload-dropzone .dropzone-icon { font-size: 2.5rem; }
